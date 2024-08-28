@@ -1,0 +1,91 @@
+options described above, --merged and --no-merged will, if not given a commit or branch name as an argument, show you what is, respectively, merged or not merged into your
+
+         
+Git in Zsh
+/book/en/Appendix-A:-Git-in-Other-Environments-Git-in-Zsh
+-lang="console">$ git che<tab> check-attr -- display gitattributes information check-ref-format -- ensure that a reference name is well formed checkout -- checkout branch or paths
+
+         
+First-Time Git Setup
+/book/en/Getting-Started-First-Time-Git-Setup
+> Your Identity The first thing you should do when you install Git is to set your user name and email address. This
+
+         
+Rewriting History
+/book/en/Git-Tools-Rewriting-History
+f7f3f6d Change my name a bit pick 310154e Update README formatting and add blame pick a5f4a0d Add cat-file # Rebase 710f0f8..a5f4a0d onto 710f0f8 # # Commands: # p, pick <commit> = use commit
+
+         
+Account Setup and Configuration
+/book/en/GitHub-Account-Setup-and-Configuration
+href="https://github.com" class="bare" target="_blank" rel="noopener">https://github.com, choose a user name that isn’t already taken, provide an email address and a password, and click the big
+
+         
+JGit
+/book/en/Appendix-B:-Embedding-Git-in-your-Applications-JGit
+.setForceUpdate(true); deleteBranch1.delete(); // Config Config cfg = repo.getConfig(); String name = cfg.getString("user", null, "name"); There’s quite a
+
+         
+Inspection and Comparison
+/book/en/Appendix-C:-Git-Commands-Inspection-and-Comparison
+to get a string to name our release file after. prev | next
+
+         
+An Example Git-Enforced Policy
+/book/en/Customizing-Git-An-Example-Git-Enforced-Policy
+> The name of the reference being pushed to The old revision where that branch was The new revision being pushed
+
+         
+Remote Branches
+/book/en/Git-Branching-Remote-Branches
+> “origin” is not special Just like the branch name “master” does not have any special meaning in Git, neither does “origin
+
+         
+Libgit2
+/book/en/Appendix-B:-Embedding-Git-in-your-Applications-Libgit2
+= git_commit_author(commit); printf("%s <%s>\n", author->name, author->email); const git_oid *tree_id = git_commit_tree_id(commit); // Cleanup git_commit_free(commit); git_repository_free(repo);
+
+         
+git-unpack-file
+/docs/git-unpack-file
+git-unpack-file(1) ================== NAME ---- git-unpack-file - Creates a temporary file with a blob's contents SYNOPSIS -------- [verse] 'git unpack-file' DESCRIPTION
+
+         
+git-check-mailmap
+/docs/git-check-mailmap
+git-check-mailmap(1) ==================== NAME ---- git-check-mailmap - Show canonical names and email addresses of contacts SYNOPSIS -------- [verse] 'git check-mailmap' []
+
+         
+git-symbolic-ref
+/docs/git-symbolic-ref
+git-symbolic-ref(1) =================== NAME ---- git-symbolic-ref - Read, modify and delete symbolic refs SYNOPSIS -------- [verse] 'git symbolic-ref' [-m ] <name> 'git symbolic-ref
+
+         
+gitmailmap
+/docs/gitmailmap
+gitmailmap(5) ============= NAME ---- gitmailmap - Map author/committer names and/or E-Mail addresses SYNOPSIS -------- $GIT_WORK_TREE/.mailmap DESCRIPTION ----------- If the file `.mailmap
+
+         
+git-remote
+/docs/git-remote
+git-remote(1) ============= NAME ---- git-remote - Manage set of tracked repositories SYNOPSIS -------- [verse] 'git remote' [-v | --verbose] 'git remote add' [-t ] [-m ] [-f
+
+         
+git-hook
+/docs/git-hook
+git-hook(1) =========== NAME ---- git-hook - Run git hooks SYNOPSIS -------- [verse] 'git hook' run [--ignore-missing] [--to-stdin=] [-- ] DESCRIPTION ----------- A
+
+         
+git-check-ref-format
+/docs/git-check-ref-format
+git-check-ref-format(1) ======================= NAME ---- git-check-ref-format - Ensures that a reference name is well formed SYNOPSIS -------- [verse] 'git check-ref-format' [--normalize
+
+         
+git-parse-remote
+/docs/git-parse-remote
+git-parse-remote(1) =================== NAME ---- git-parse-remote - Routines to help parsing remote repository access parameters SYNOPSIS -------- [verse] '. "$(git --exec-path)/git-parse-remote
+
+         
+git-fsck-objects
+/docs/git-fsck-objects
+git-fsck-objects(1) =================== NAME ---- git-fsck-objects - Verifies the connectivity and validity of the objects in the database SYNOPSIS -------- [verse] 'git fsck-objects

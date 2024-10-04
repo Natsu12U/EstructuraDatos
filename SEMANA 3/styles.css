@@ -1,0 +1,168 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo de encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Menú de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #ff00e1;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Sección de héroe */
+.hero {
+    background-color: #007BFF;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    background-image: url('/SEMANA 3/assets/lo.jpg'); /* Puedes reemplazar la imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Secciones */
+section {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+section h2::after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: #007BFF;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section div {
+    margin-bottom: 1.5rem;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    color: #0b0101;
+}
+
+/* Estilo de imagen de botón de regreso */
+.my_back {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s;
+    margin-left: 15px;
+}
+
+.my_back:hover {
+    transform: scale(1.1);
+}
+
+/* Colores de las secciones */
+.s1 {
+    background-color: #f8f9fa;
+}
+
+.s2 {
+    background-color: #e9ecef;
+}
+
+.s3 {
+    background-color: #dee2e6;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    nav a {
+        margin: 0 8px;
+        padding: 8px 15px;
+    }
+
+    section h2::after {
+        width: 60px;
+    }
+}
